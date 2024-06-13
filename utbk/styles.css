@@ -1,0 +1,99 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #ff8c00;
+  color: white;
+  padding: 1em;
+  text-align: center;
+}
+h2 {
+  color: #ff8c00;
+}
+section img {
+  width: 100%;
+  left: 100%;
+  margin-top: 20px;
+}
+section video {
+  width: 100%;
+  left: 100%;
+  margin-top: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 1em;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  padding: 1em;
+}
+
+section {
+  margin-bottom: 2em;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+th,
+td {
+  padding: 0.5em;
+  text-align: left;
+}
+.gambar-container {
+  display: inline-block;
+  margin: 10px;
+  text-align: center;
+}
+
+.gambar-container img {
+  width: 200px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.gambar-container img:hover {
+  transform: scale(1.05);
+}
+
+.gambar-container .teks {
+  font-size: 16px;
+  color: #333;
+  margin-top: 8px;
+  font-family: "Arial", sans-serif;
+}
+
+footer {
+  background-color: #ff8c00;
+  text-align: center;
+  padding: 1px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
